@@ -6,6 +6,7 @@ variable "agent_id" {
 variable "docker_network_name" {
   type        = string
   description = "The name of the Docker network to attach containers to."
+  default     = "bridge"
 }
 
 variable "resource_name_base" {
